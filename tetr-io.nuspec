@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tetr-io</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/Karunamon/choco-tetr-io</packageSourceUrl>
+
+    <owners>Karunamon</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>TETR.IO Desktop (Install)</title>
+    <authors>osk</authors>
+    <projectUrl>https://tetr.io/about/desktop/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Karunamon/choco-tetr-io/master/icons/TETR.IO.png</iconUrl>
+    <copyright>osk 2020</copyright>
+    <tags>tetr.io tetris games multiplayer</tags>
+    <summary>Desktop client for the online multiplayer Tetris clone TETR.IO</summary>
+    <description> Puzzle together in this modern yet familiar online stacker. Play against friends and foes all over the world, or claim a spot on the leaderboards - the stacker future is yours!
+**Features**:
+* Better performance on most devices — performance patches pre-applied
+* Discord Rich Presence integration — show what you're playing
+* Skip the login screen and get in the game quicker
+* Place TETR.IO in the Start Menu and taskbar
+* Play singleplayer modes without an Internet connection
+* No BS — no background processes or spyware, just TETR.IO in a nice client with some extra features
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
